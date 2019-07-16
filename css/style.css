@@ -562,10 +562,10 @@ h1, h2, h3, h4, h5,
 
 /* Blocks */
 .site-blocks-cover {
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: top;
-  background-position: center center; }
+  background-position: left center; }
   .site-blocks-cover.overlay {
     position: relative; }
     .site-blocks-cover.overlay:before {
@@ -575,7 +575,7 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       right: 0;
       top: 0;
-      background: rgba(52, 58, 64, 0.9); }
+      background: rgba(252,191,256,0.5);}
   .site-blocks-cover .player {
     position: absolute;
     bottom: -250px;
